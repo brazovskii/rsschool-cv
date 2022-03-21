@@ -63,7 +63,7 @@ function duplicateEncode (word) {
 ## Education and Courses
 
 + BSU
-    - Faculty of Radiophysics and Computer Technologies(9.2013 - 11.2015) - ncomplete higher education.
+    - Faculty of Radiophysics and Computer Technologies(9.2013 - 11.2015), ncomplete higher education.
 
 + TeachMeSkills
     - Front-end developer (05.2021-02.2022)
