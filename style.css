@@ -67,7 +67,6 @@ body {
   color: rgb(79, 77, 211);
 }
 
-
 .main-container {
   display: flex;
   flex-wrap: wrap;
@@ -89,12 +88,12 @@ body {
 }
 
 .about-me::before {
-  content: "< ";
+  content: "<";
   color: rgb(79, 77, 211);
 }
 
 .about-me::after {
-  content: " />";
+  content: "/>";
   color: rgb(79, 77, 211);
 }
 
@@ -156,4 +155,3 @@ body {
   justify-content: space-between;
   margin: 0 5rem 0 0;
 }
-
