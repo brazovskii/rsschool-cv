@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/favicon/favicon.ico" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#aboutMe" class="nav-link">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#codeStyle" class="nav-link">Code Style</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#english" class="nav-link">English</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <div class="main-container">
+          <section class="section" id="profile">
+            <img src="assets/img/myPhoto.jpg" alt="AlekseiBrazovskii" />
+            <h3 class="name">Hi, I'm <span class="myName">Aleksei</span>:)</h3>
+            <h1 class="speciality">Front-End Developer</h1>
+          </section>
+        </div>
+        <hr class="hr-washed" />
+
+        <section class="section" id="aboutMe">
+          <h2 class="skills-me">About Me</h2>
+          <p class="about-me">
+            I'm a junior front-end developer. I live in Minsk. I have no
+            commercial experience in development, but I've been doing it myself
+            for about a year.
+          </p>
+          <p class="about-me">
+            I am 26 years old. I love Animals and Anime. I also love listening
+            to music while doing what I love.
+          </p>
+          <p class="about-me">
+            My dream is to travel the world and learn something new.
+          </p>
+        </section>
+        <hr class="hr-washed" />
+        <section class="section" id="skills">
+          <div class="main-container">
+            <h2 class="skills-me">Skills</h2>
+            <ul class="nav-list-skills">
+              <li class="nav-item-skills about-me">Java Script</li>
+              <li class="nav-item-skills about-me">Type Script</li>
+              <li class="nav-item-skills about-me">React</li>
+              <li class="nav-item-skills about-me">Redux</li>
+              <li class="nav-item-skills about-me">Redux-toolkit</li>
+              <li class="nav-item-skills about-me">React-router</li>
+              <li class="nav-item-skills about-me">Webpack</li>
+              <li class="nav-item-skills about-me">Git</li>
+              <li class="nav-item-skills about-me">HTML</li>
+              <li class="nav-item-skills about-me">Css/Scss</li>
+            </ul>
+          </div>
+        </section>
+        <hr class="hr-washed" />
+        <section class="section" id="codeStyle">
+          <div class="main-container">
+            <h2 class="skills-me">Code Style</h2>
+            <pre class="code">
+function duplicateEncode (word) {
+              let transformStr = word
+              .toLowerCase()
+              .split("")
+              .map((item, _, array)=>
+                   array.indexOf(item) === array.lastIndexOf(item) ? (item = "(") : (item = ")")
+                  )
+              .join("");
+            
+            return transformStr;
+          }</pre
+            >
+          </div>
+        </section>
+        <hr class="hr-washed" />
+        <section class="section" id="projects">
+          <h2 class="skills-me">Projects</h2>
+          <p class="about-me">
+            The
+            <a
+              href="https://github.com/brazovskii/Barishka"
+              class="nav-link-project"
+              >Barishka</a
+            >
+            online store was developed on React. RTK-query was used to work with
+            the API. Json-server was used as a server.
+          </p>
+          <p class="about-me">
+            The
+            <a
+              href="https://github.com/brazovskii/Clone-Pinterest"
+              class="nav-link-project"
+              >Pintagram</a
+            >
+            is a small copy of the Pinterest website. Written in pure
+            JavaScript.
+          </p>
+          <p class="about-me">
+            The
+            <a
+              href="https://github.com/brazovskii/WEISS"
+              class="nav-link-project"
+              >WEISS</a
+            >
+            Responsive website layout in Figma. Written using Html, Scss, BEM.
+          </p>
+        </section>
+        <hr class="hr-washed" />
+        <section class="section" id="education">
+          <h2 class="skills-me">Education</h2>
+          <p class="about-me">
+            BSU Faculty of Radiophysics and Computer Technologies(9.2013 -
+            11.2015), ncomplete higher education.
+          </p>
+          <p class="about-me">
+            TeachMeSkills Front-end developer (05.2021-02.2022)
+          </p>
+        </section>
+        <hr class="hr-washed" />
+        <section class="section" id="english">
+          <h2 class="skills-me">English</h2>
+          <p class="about-me">
+            English - A2(at the level of reading documentation)
+          </p>
+        </section>
+        <hr class="hr-washed" />
+        <section class="section" id="contacts">
+          <h2 class="skills-me">Contacts</h2>
+          <ul class="nav-item-contact">
+            <li class="nav-item-skills about-me">Phone: +375(29)806-59-28</li>
+            <li class="nav-item-skills about-me">
+              E-mail: aleksei.brazovskii@gmail.com
+            </li>
+            <li class="nav-item-skills about-me">Telegram: @brazuly</li>
+            <li class="nav-item-skills about-me">
+              GitHub:
+              <a href="https://github.com/brazovskii" class="nav-link-project"
+                >brazovskii</a
+              >
+            </li>
+            <li class="nav-item-skills about-me">
+              Linkedin:
+              <a
+                href="https://www.linkedin.com/in/aleksei-brazovskii-7b114b215/?originalSubdomain=by"
+                class="nav-link-project"
+                >Aleksei Brazovskii</a
+              >
+            </li>
+          </ul>
+        </section>
+        <hr class="hr-washed" />
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-container">
+          <h2 class="about-me">© 2022 by Aleksei Brazovskii</h2>
+          <a href="https://github.com/brazovskii" class="nav-link-project"
+            >GitHub</a
+          >
+          <a href="https://rs.school/js-stage0/" class="nav-link-project"
+            ><img
+              src="assets/svg/rs_school_js.svg"
+              class="rs-school"
+              alt="rs-school"
+          /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
